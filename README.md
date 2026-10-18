@@ -170,10 +170,9 @@ docker compose up -d
 
 ## 五、Android 客户端
 
-提供 Android 安装包（apk），安装后可在手机上管理转存任务：
+提供 Android 安装包（正式版 apk），安装后可在手机上管理转存任务：
 
 - **正式版**：[`apk/AMcdHub-0.31.apk`](apk/AMcdHub-0.31.apk)
-- **调试版**：[`apk/AMcdHub-0.21.apk`](apk/AMcdHub-0.21.apk)
 
 > 安装未知来源应用时，按系统提示允许「允许安装来自此来源的应用」即可。
 
