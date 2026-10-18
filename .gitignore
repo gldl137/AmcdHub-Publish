@@ -1,0 +1,10 @@
+# 本仓库只发布说明文档 / 截图 / 安装包，不含项目源码。
+# 若误将源码放入，以下规则将其排除，避免泄露实现细节与个人信息。
+app/
+backend/
+frontend/
+android/
+*.py
+*.pyc
+__pycache__/
+node_modules/
