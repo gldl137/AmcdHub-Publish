@@ -140,21 +140,11 @@ docker compose up -d
 
 ## 三、鸣谢
 
-本项目在开发与实现过程中，参考、复用或受其启发于以下优秀的开源项目与数据源（按 AGPL-3.0 等协议保留原始版权声明）：
+本项目（尤其是「夸克网盘自动转存」模块）基于以下开源项目二次开发，特此致谢原作者：
 
-| 项目 | 作者 / 组织 | 地址 | 在本项目中的用途 |
-|---|---|---|---|
-| **MoviePilot** | jxxghp | https://github.com/jxxghp/MoviePilot | 整体插件化框架与运行方式参考 |
-| **MoviePilot-Plugins** | justzerock | https://github.com/justzerock/MoviePilot-Plugins | `embyreverseproxy`（Emby 302 反向代理）思路参考；封面字体资源 |
-| **emby2Alist**（embyExternalUrl） | bpking1 | https://github.com/bpking1/embyExternalUrl | 重定向链（fetchLastLink）直链解析实现参考 |
-| **emby-toolkit** | mrfrog1999 | https://github.com/mrfrog1999/emby-toolkit | reverse_proxy（虚拟库注入）设计参考 |
-| **TVmaze** | TVmaze | https://www.tvmaze.com | 追剧日历的播出 / 单集数据 |
-| **Emby** | Emby | https://emby.media | 媒体服务器（本项目代理与入库目标） |
-| **夸克网盘（Quark）** | 阿里巴巴 | https://pan.quark.cn | 网盘转存与 STRM 数据源 |
-| **TMDB** | The Movie Database | https://www.themoviedb.org | 影视元数据 |
-| **猫眼 / 豆瓣 / 腾讯视频** | — | — | 影视热度榜单数据源 |
-
-同时感谢以下开源库的基础支撑：Flask、APScheduler、FastAPI、uvicorn、httpx、websockets、Pillow、numpy、CairoSVG、fonttools、Vue 3、Vite、axios、Bootstrap Icons。
+- **quark-auto-save** — 作者 [@Cp0204](https://github.com/Cp0204)
+  - 项目地址：<https://github.com/Cp0204/quark-auto-save>
+  - 用途：夸克网盘自动转存 / STRM 生成的核心逻辑参考与二次开发基础
 
 ---
 
