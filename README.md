@@ -69,7 +69,7 @@ AmcdHub 是一个自托管的影视资源管理工具，把「找片 → 转存�
    ```yaml
    services:
      amcdhub:
-       image: gldl137/amcdhub:v0.2.0
+       image: gldl137/amcdhub
        container_name: amcdhub
        ports:
          - "6363:6363"   # Web 主端口（前端 + 后端 API，单端口）
@@ -83,7 +83,7 @@ AmcdHub 是一个自托管的影视资源管理工具，把「找片 → 转存�
        restart: unless-stopped
    ```
 
-   > 镜像版本号 `v0.2.0` 可在 [Docker Hub](https://hub.docker.com/r/gldl137/amcdhub) 查看最新标签。
+   > 镜像版本号 `latest` 可在 [Docker Hub](https://hub.docker.com/r/gldl137/amcdhub) 查看最新标签。
 
 3. 启动：
 
